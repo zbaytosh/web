@@ -1,0 +1,83 @@
+body {
+  margin: 32px;
+  font-size: 16pt;
+  font-family: "garamond";
+}
+
+h1 {
+  all: unset;
+  font-size: 20pt;
+}
+
+h2 {
+  font-weight: unset;
+  font-variant: small-caps;
+  font-size: 18pt;
+}
+
+nav {
+  margin-top: 16px;
+  font-size: 16pt;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  all: unset;
+  font-variant: small-caps;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+article {
+  margin-top: 16px;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  color: blue;
+}
+
+.dropcap {
+  margin-right: 8px;
+  margin-top: 4px;
+  float: left;
+  height: 90px;
+  width: 90px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.leaderText {
+  font-variant: small-caps;
+}
+
+.dashlist ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.dashlist ul li:before {
+  content: '\2013';
+  margin: 0 1em;
+}
+/*# sourceMappingURL=style.css.map */
