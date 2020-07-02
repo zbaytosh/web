@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Scripts -->
+    <script>
+        function mkDateMDY() {
+            var date = new Date();
+            var month; 
+            switch(date.getMonth()) {
+                case 0:
+                    month = "January";
+                    break;
+                case 1:
+                    month = "February";
+                    break;
+                case 2:
+                    month = "March";
+                    break;
+                case 3: 
+                    month = "April";
+                    break;
+                case 4:
+                    month = "May";
+                    break;
+                case 5:
+                    month = "June";
+                    break;
+                case 6: 
+                    month = "July";
+                    break;
+                case 7:
+                    month = "August";
+                    break;
+                case 8:
+                    month = "September";
+                    break;
+                case 9:
+                    month = "October";
+                    break;
+                case 10:
+                    month = "November";
+                    break;
+                case 11:
+                    month = "December"; 
+            }
+            var day = date.getDate().toString();
+            var year = date.getFullYear().toString();
+            document.write(month + " " + day + ", " + year);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Zachary Wilder Baytosh --- 
+                <script type="text/javascript">
+                    mkDateMDY();
+                </script>
+            </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a> ~
+                    <li> <a href="writing.html">Writing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <div>
+                <img class="dropcap" src="ilumO.png" alt="O"/>
+                <p>
+                    <span class="leaderText">h no!</span> 
+                    Looks like you tried to access a page that doesn't exist (yet). If you got here from a link, chances are I am still developing it. Check back again soon and maybe it will be here. If you got here from somewhere else, sorry about that! Try going back to the home page above if you would like to see the rest of the site.  
+                </p>
+            </div>
+        </article> 
+    </div> 
+</body>
