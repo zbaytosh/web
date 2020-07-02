@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Scripts -->
+    <script>
+        function mkDateMDY() {
+            var date = new Date();
+            var month; 
+            switch(date.getMonth()) {
+                case 0:
+                    month = "January";
+                    break;
+                case 1:
+                    month = "February";
+                    break;
+                case 2:
+                    month = "March";
+                    break;
+                case 3: 
+                    month = "April";
+                    break;
+                case 4:
+                    month = "May";
+                    break;
+                case 5:
+                    month = "June";
+                    break;
+                case 6: 
+                    month = "July";
+                    break;
+                case 7:
+                    month = "August";
+                    break;
+                case 8:
+                    month = "September";
+                    break;
+                case 9:
+                    month = "October";
+                    break;
+                case 10:
+                    month = "November";
+                    break;
+                case 11:
+                    month = "December"; 
+            }
+            var day = date.getDate().toString();
+            var year = date.getFullYear().toString();
+            document.write(month + " " + day + ", " + year);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Zachary Wilder Baytosh --- 
+                <script type="text/javascript">
+                    mkDateMDY();
+                </script>
+            </h1>
+            <nav>
+                <ul>
+                    <li> <a href="index.html">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <div>
+                <img class="dropcap" src="ilumA.png" alt="A"/>
+                <p>
+                    <span class="leaderText">bout me:</span> 
+                    I am a student at Brown University studying Literary Arts and Philosophy. In the Fall, I will be taking a leave of absence to work on a political campaign, before returning in January of 2021 to begin my senior year. My current plan is to complete honors in Literary Arts and complete a thesis in Philosophy on the biological basis of consciousness. 
+                </p>
+                
+                <img class="dropcap" src="ilumP.png" alt="P"/>
+                <p>
+                    <span class="leaderText">hilosophy:</span> 
+                    My primary philosophical interest is the nature of consciousness: what is it and why does it exist? As we get an increasingly clear picture of how the physical structures of our brain determine our experiences, the mystery of why we have experiences at all only deepens. Neither the natural sciences, as important as they are to our understanding of the world around us, nor the social sciences (which are primarially focused on human behavior) seem to have the tools to solve this problem. In exploring these interests, I have taken courses in consciousness, mental representation, perception, logic, and epistemology, as well as an array of courses in computer science, neuroscience, and biology. 
+                <p>
+                <p>
+                    I am also interested in political philosophy, ethics, and aesthetics. I am particularly interested in the intersections and interactions between the often narrow focus of philosophy and the rest of the academic world. An overarching question of mine is how and whether we can make objective claims about ethical issues. I suspect that at least part of the answer lies in the nature of consciousness.
+                </p>
+
+                <img class="dropcap" src="ilumL.png" alt="L"/>
+                <p>
+                    <span class="leaderText">iterary Arts:</span>
+                    I have been writing on and off since I was twelve, mostly short pieces which sometimes turn into short stories. At Brown I have taken several writing seminars, as well as courses in nature writing, ethics in short fiction, Russian literature, Old English (translation and history) and the history of the English language. Some of my favorite authors are Kazuo Ishiguro, Terry Pratchett, Lemony Snicket, and Gabriel Garcia Marquez. My goal is to complete an honors thesis in Literary Arts (though I am not sure in what genre or what form).
+                </p>
+
+                <img class="dropcap" src="ilumR.png" alt="R"/>
+                <p>
+                    <span class="leaderText">eading and Listening:</span> Currently I am reading <i>The Problems of Philosophy</i> by Bertrand Russell and <i>Where the Crawdads Sing</i> by Delia Owens, and listening to <i>Why Fish Don't Exist</i> by Lulu Miller (the former host of "Invisibilia"). Recently, I finished the wonderful <i>White Teeth</i> by Zadie Smith. Slightly less recently, I finished the equally wonderful <i>Milkman</i> by Anna Burns, <i>Jazz</i> by Toni Morrison, and <i>An American Marriage</i> by Tayari Jones. 
+                </p>
+                <p>
+                    I also listen to a number of podcasts in my free time. I would recommend <i>On the Media</i> (News/Political Commentary), <i>Radiolab</i> (Science/Social Science), <i>Invisibilia</i> (Science/Social Science), and <i>Amicus</i> (Law) to anyone interested in listening to something new.  
+                 </p>
+
+                <img class="dropcap" src="ilumS.png" alt="S"/>
+                <p>
+                    <span class="leaderText">upreme Court:</span>
+                    For some time now, I have been keeping up with the Supreme Court's oral argument and opinion calendars. The opinions and arguments are easier to follow than you might expect, and due to the nature of the news cycle (and the way the Court release's its decisions) reporters frequently pass over important details in the s cramble to write stories on big cases. Perhaps more frequently, signficant cases pass under the radar with hardly any mention in the news. You can find the Court's oral arguments <a href="https://www.supremecourt.gov/oral_arguments/oral_arguments.aspx">here</a> under Argument Audio, and their most recent opinions <a href="https://www.supremecourt.gov/opinions/opinions.aspx">here</a> under Opinions of the Court.
+                </p>
+            </div>
+        </article> 
+    </div> 
+</body>
