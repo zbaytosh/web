@@ -43,5 +43,5 @@ function mkDateMDY() {
     }
     var day = date.getDate().toString();
     var year = date.getFullYear().toString();
-    document.write(month + " " + day + ", " + year);
+    document.write(month + '&nbsp;' + day + ",&nbsp;" + year);
 }
