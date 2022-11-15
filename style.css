@@ -1,23 +1,23 @@
 body {
   margin: 32px;
-  font-size: 16pt;
+  font-size: 14pt;
   font-family: "garamond";
 }
 
 h1 {
   all: unset;
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 h2 {
   font-weight: unset;
   font-variant: small-caps;
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 nav {
   margin-top: 16px;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 nav ul {
